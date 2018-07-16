@@ -1,2 +1,4 @@
 .idea
-/blog/__pycache__/
+blog/__pycache__/
+organizer/__pycache__/
+startup/__pycache__/
