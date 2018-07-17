@@ -2,3 +2,5 @@
 blog/__pycache__/
 organizer/__pycache__/
 startup/__pycache__/
+blog/migrations/__pycache__
+organizer/migrations/__pycache__

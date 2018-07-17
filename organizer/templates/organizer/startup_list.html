@@ -1,0 +1,9 @@
+<h2>Startup List</h2>
+<ul>
+    {% for startup in startup_list %}
+        <li>{{ startup.name|urlize }}</li>
+
+        {% empty %}
+        <li><em>No Startups Available.</em></li>
+    {% endfor %}
+</ul>
