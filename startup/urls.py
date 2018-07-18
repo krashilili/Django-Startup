@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import path, include
 from organizer import urls as organizer_urls
 from blog import urls as blog_urls
+from .views import redirect_root
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(organizer_urls)),
-    path('blog/', include(blog_urls))
+    path('blog/', include(blog_urls)),
+    # path('', redirect_root),
 ]
