@@ -14,14 +14,14 @@ def tag_create(request):
         else:
             return render(
                 request,
-                'organizer/tag_form.html',
+                'organizer/tag_form_old.html',
                 {'form': form}
             )
     else:
         form=TagForm()
         return render(
             request,
-            'organizer/tag_form.html',
+            'organizer/tag_form_old.html',
             {'form': form}
         )
 
